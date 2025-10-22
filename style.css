@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    font-family: sans-serif;
+}
+
+#background {
+    height: 95%;
+    width: 95%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#profileInfo {
+    width: 80%;
+    margin-top: 1em, auto, 1em, auto;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+#left {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
