@@ -35,15 +35,113 @@ body {
     border-radius: 50%;
 }
 
+#right {
+    width: 90%;   
+}
+
+#userTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin: 0, 0.5em;
+    height: 20px;
+    background: #EFEFEF;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #DFDFDF;
+}
+
+#follow {
+    background: #4193EF;
+    color: rgb(255, 255, 255);
+}
+
+#follow.button{
+    background: #4193EF;
+    color: white;
+}
+
+#follow:hover {
+    background: #4D9DF7;
+    color: white;
+}
 
 
+.button img {
+    height: 20px;
+    width: 20px;
+}
 
+#more {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
 
+#bioBot p span {
+    color: rgb(128, 128, 128);
+}
 
+#infoMid {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0.5em;
+}
 
+hr {
+    height: 1px;
+    background: lightgrey;
+    border: none;
+    width: 80%;
+}
 
+#bar {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 75%;
+}
 
+.option img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
 
+.option {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: grey;
+    cursor: pointer;
+}
 
+.option:hover {
+    color: #AAAAAA;
+}
 
+#active {
+    color: black;;
+}
 
+#feed {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.post {
+    width: 30%;
+    margin: 0.3em;
+}

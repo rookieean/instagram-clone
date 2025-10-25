@@ -40,3 +40,13 @@
 
     Now we can add the username on the profile and the main buttons, follow, message, similar accounts and options. We will do this inside the userTop div
 
+####
+
+7. CSS - Style | Spacing
+
+    In this lesson, we will style, arrange, and space the elements we added to the userTop div
+
+
+####
+
+8. 
